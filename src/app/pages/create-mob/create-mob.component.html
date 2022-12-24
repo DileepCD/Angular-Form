@@ -1,0 +1,6 @@
+<h3>Create MOB</h3>
+<div  [formGroup]="createMobForm">
+    <app-personal-details-form formGroupName="personDetailsForm"></app-personal-details-form>
+    <app-feature-details-form formGroupName="featureDetailsForm"></app-feature-details-form>
+    <input type="submit" text="Submit" (click)=onSave() />
+</div>

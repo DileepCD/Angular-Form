@@ -1,0 +1,14 @@
+<h5>Features</h5>
+<div [formGroup]="form">
+    <form>  
+<div>
+    <div><label for="hair">Hair</label></div>
+    <div><input type="text" name="hair" formControlName="hairColor"></div>
+</div>
+<div>
+    <div><label for="eyes">Eyes</label></div>
+    <div><input type="text" name="eyes" formControlName="eyeColor"></div>
+</div>
+    </form>
+    <div><input type="submit" text="Save features" (click)="savefeatures()" /></div>
+</div>
